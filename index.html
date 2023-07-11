@@ -43,32 +43,92 @@
       </ul>
     </nav>
   </header>
-  <header>
-    <nav class="header__nav">
-      <div class="header__logo">
-        <div class="header__logo-overlay"></div>
-        <h4>Sushiman</h4>
-      </div>
 
-      <ul class="header__menu">
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#menu">food</a></li>
-        <li><a href="#menu">services</a></li>
-
-        <li><a href="#menu">about us</a></li>
-        <li><img src="assets/search.svg" alt="search"></li>
-      </ul>
-
-      <div class="header__menu-mobile">
-        <li>
-          <img src="assets/menu.svg" alt="menu">
-        </li>
-      </div>
-    </nav>
-  </header>
   <section class="hero">
-
+    <div class="hero-image">
+      <img src="assets/sushi-1.png" alt="sushi" />
+      <h2>
+        日 <br />
+        本 <br />
+        食
+      </h2>
+      <div class="hero-image__overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-content-info">
+        <h1>Feel the taste of Japanese food</h1>
+        <p>Feel the taste f the most popular
+          Japanese food from anywhere and anytime</p>
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+          <button class="hero-content__play-button">
+            <img src="assets/play-circle.svg" alt="play">How to order
+          </button>
+        </div>
+      </div>
+      <div class="hero-content__testimonial">
+        <div class="hero-content__customer flex-center">
+          <h4>24<span>k+</span></h4>
+          <p>Happy Customers</p>
+        </div>
+        <div class="hero-content__review">
+          <img src="assets/user.png" alt="user">
+          <p>"This is the best Japanese food and service that ever existed."</p>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <section class="about-us" id="about-us">
+    <div class="about-us__image">
+      <div class="about-us__image-sushi3">
+        <img src="assets/sushi-3.png" alt="sushi">
+      </div>
+      <button class="about-us__button">
+        Learn More
+        <img src="assets/arrow-up-right.svg" alt="learn more">
+      </button>
+      <div class="about-us__image-sushi2">
+        <img src="assets/sushi-2.png" alt="sushi">
+      </div>
+    </div>
+
+    <div class="about-us__content">
+      <p class="sushi__subtitle">About Us / 私たちに関しては</p>
+      <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
+      <p class="sushi__description">We will continue to provide the experience of Omotenashi, the Japanese mindset of
+        hospitality, with our shopping and dining for our customers.
+      </p>
+    </div>
+  </section>
+
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title" data-aos="flip-up">Popular Food / 人気</h2>
+    <div class="popular-foods__filters sushi__hide-scrollbar">
+      <button class="popular-foods__filter-btn active">All</button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/sushi-9.png" alt="sushi 9">Sushi
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/sushi-8.png" alt="sushi 8">Ramen
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/sushi-7.png" alt="sushi 7">Udon
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/sushi-6.png" alt="sushi 6">Danggo
+      </button>
+      <button class="popular-foods__filter-btn ">Others</button>
+    </div>
+    <div class="popular-foods__catalogue">
+      <!--Javascript-->
+    </div>
+    <button class="popular-foods__button">
+      Explore Food
+      <img src="assets/arrow-right.svg" alt="arrow-right">
+    </button>
+  </section>
+
   <script src="/js/script.js" type="module"></script>
 </body>
 
