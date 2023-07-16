@@ -38,6 +38,7 @@
   line-height: 25px;
   font-family: var(--plus-jakarta-sans);
   color: white;
+
   cursor: pointer;
 }
 .popular-foods__filter-btn img {
