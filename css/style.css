@@ -288,7 +288,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
@@ -304,6 +304,21 @@ a {
   .trending__arrow {
     display: none;
   }
+  .popular-foods__filters {
+    flex-wrap: wrap;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .footer ul {
+    gap: 15px;
+  }
+  .footer_nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -314,6 +329,12 @@ a {
 
   .trending__content {
     padding: 32px;
+  }
+  .sushi__title {
+    font-size: 35px;
+  }
+  .hero-content-info h1 {
+    line-height: 70px;
   }
 }
 /* END: trending media queries */

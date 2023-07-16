@@ -1,5 +1,6 @@
 .trending {
   position: relative;
+
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -22,6 +23,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .trending__discover p {
   font-size: 18px;
   font-weight: 500;
@@ -48,6 +50,7 @@
 
   padding: 32px 64px;
 }
+
 .trending__list {
   list-style: none;
 
@@ -64,6 +67,7 @@
 
   min-width: 210px;
 }
+
 .trending__icon {
   width: 24px;
   height: 24px;
@@ -77,6 +81,7 @@
   height: 50%;
   object-fit: contain;
 }
+
 .trending__list p {
   flex: 1;
   font-size: 16px;
@@ -85,6 +90,7 @@
 
   color: var(--secondary-color);
 }
+
 .trending__image {
   flex: 1;
 
@@ -96,19 +102,22 @@
   background-size: contain;
   background-position: center;
 }
+
+.trending-sushi .trending__image {
+  background-image: url("../../assets/japanese_sushi.png");
+}
+
+.trending-drink .trending__image {
+  background-image: url("../../assets/japanese_drinks.png");
+}
+
 .trending__image img {
   width: 254px;
   height: 260px;
   object-fit: contain;
 }
-.trending-sushi .trending__image {
-  background-image: url("../../assets/japanese_sushi.png");
-}
 
-.trending-drinks .trending__image {
-  background-image: url("../../assets/japanese_drinks.png");
-}
-
+/* Arrows */
 .trending__arrow {
   position: absolute;
   z-index: 1;
